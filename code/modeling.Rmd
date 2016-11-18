@@ -6,9 +6,8 @@ output: html_document
 ---
 # PepBio: a web server for predicting the bioactivity of host defense peptide
 
-*Saw Simeon, Hao Li, Aijaz Ahmad Malik, Abdul Hafeez Kandhro, Theeraphon Piacham, Virapong Prachayasittikul, 
-
-Jarl E. S. Wikberg and Chanin Nantasanamat*
+*Saw Simeon, Hao Li, Aijaz Ahmad Malik, Abdul Hafeez Kandhro, Theeraphon Piacham, Virapong Prachayasittikul,*
+*Jarl E. S. Wikberg and Chanin Nantasanamat*
 
 Below are the R code for constructing the predictive models consisting of: (i) binary models and (ii) multi-class model.
 
