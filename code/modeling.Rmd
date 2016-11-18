@@ -4,7 +4,11 @@ author: Saw Simeon, Hao Li, Aijaz Ahmad Malik, Abdul Hafeez Kandhro, Theeraphon 
 date: "October 13, 2015"
 output: html_document
 ---
+# PepBio: a web server for predicting the bioactivity of host defense peptide
 
+Saw Simeon, Hao Li, Aijaz Ahmad Malik, Abdul Hafeez Kandhro, Theeraphon Piacham, Virapong Prachayasittikul, Jarl E. S. Wikberg and Chanin Nantasanamat
+
+======
 
 ### Four Binary models
 Four separate binary models are built as a function of the 4 bioactivity classes.
