@@ -6,7 +6,8 @@ output: html_document
 ---
 
 
-
+### Four Binary models
+Four separate binary models are built as a function of the 4 bioactivity classes.
 
 ```{r, echo = FALSE, eval = TRUE, cache = TRUE}
 ### Read FASTA
@@ -214,7 +215,8 @@ results_J48 <- function(x) {
 
 ```
 
-### HDPs having their bioactivity merged with the negative data set to build seperate models ###
+### Multi-class model
+Four bioactivity classes are merged as the **HDP** class while the negative set was used as the **Non-HDP** class.
 
 ```{r, echo = FALSE, eval = TRUE, cache = TRUE}
 suppressPackageStartupMessages(library(parallel))
@@ -280,7 +282,11 @@ results_J48 <- function(x) {
 }
 ```
 
-### HDPs having anti--bacteria, anti--cancer, anti--fungus and anti-viral bioactivities combined into the HDP set while the negative set was used as non--HDPs ###
+
+
+
+### Union model
+Four bioactivity classes and the negative class are combined together to build a singlee union model.
 
 ```{r, echo = FALSE, eval = TRUE, cache = TRUE}
 
@@ -1432,9 +1438,9 @@ J48_testing_all <- function(x) {
 ```
 
 
-### HDPs having their respective activity combined together to build a union predictive model ###
+### Results
 
-Results for training 
+Results for Training 
 
 ```{r, echo=FALSE, cache = TRUE}
 training_results <- suppressWarnings(J48_training_all(combine_data))
