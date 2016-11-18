@@ -1,0 +1,1 @@
+If any errors(s) found on the PepBio web server or issues regardings the prediction accuracy, please consult the Corresponding Author: [Chanin Nantasenamat](https://www.researchgate.net/profile/Chanin_Nantasenamat) via E-mail: *x*@mahidol.edu (where *x* is chanin.nan).
