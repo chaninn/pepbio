@@ -15,7 +15,7 @@ cancer <- readFASTA("cancer.fasta")
 fungus <- readFASTA("fungus.fasta")
 bacteria <- readFASTA("bacteria.fasta")
 virus <- readFASTA("virus.fasta")
-negative <- protr::readFASTA("negative_Protein.fasta")
+negative <- protr::readFASTA("negative.fasta")
 
 ### Remove problematic peptide
 cancer <- cancer[(sapply(cancer, protcheck))]
@@ -239,7 +239,7 @@ cancer <- readFASTA("cancer.fasta")
 fungus <- readFASTA("fungus.fasta")
 bacteria <- readFASTA("bacteria.fasta")
 virus <- readFASTA("virus.fasta")
-negative <- protr::readFASTA("negative_Protein.fasta")
+negative <- protr::readFASTA("negative.fasta")
 
 ### Remove problematic peptides
 cancer <- cancer[(sapply(cancer, protcheck))]
@@ -295,7 +295,7 @@ cancer <- readFASTA("cancer.fasta")
 fungus <- readFASTA("fungus.fasta")
 bacteria <- readFASTA("bacteria.fasta")
 virus <- readFASTA("virus.fasta")
-negative <- protr::readFASTA("negative_Protein.fasta")
+negative <- protr::readFASTA("negative.fasta")
 
 ### Remove problematic peptides
 cancer <- cancer[(sapply(cancer, protcheck))]
