@@ -8,10 +8,14 @@ output: html_document
 
 Saw Simeon, Hao Li, Aijaz Ahmad Malik, Abdul Hafeez Kandhro, Theeraphon Piacham, Virapong Prachayasittikul, Jarl E. S. Wikberg and Chanin Nantasanamat
 
+Below are the R code for constructing the predictive models consisting of: (i) binary models and (ii) multi-class model.
+
 ======
 
-### Four Binary models
-Four separate binary models are built as a function of the 4 bioactivity classes.
+## Binary models
+
+### 1.1. Four Binary models (Bacteria/Negative, Cancer/Negative, Fungus/Negative and Virus/Negative)
+Four separate binary models are built for each of the 4 bioactivity classes. The model of each bioactivity classifies a peptide as being positive (i.e. having the desired bioactivity) or negative (i.e. not having the desired bioactivity).
 
 ```{r, echo = FALSE, eval = TRUE, cache = TRUE}
 ### Read FASTA
@@ -219,7 +223,7 @@ results_J48 <- function(x) {
 
 ```
 
-### Multi-class model
+### 1.2. Binary model (HDP/Non-HDP)
 Four bioactivity classes are merged as the **HDP** class while the negative set was used as the **Non-HDP** class.
 
 ```{r, echo = FALSE, eval = TRUE, cache = TRUE}
@@ -289,7 +293,7 @@ results_J48 <- function(x) {
 
 
 
-### Union model
+## 2. Multi-class model
 Four bioactivity classes and the negative class are combined together to build a singlee union model.
 
 ```{r, echo = FALSE, eval = TRUE, cache = TRUE}
