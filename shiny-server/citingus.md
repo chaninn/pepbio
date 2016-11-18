@@ -1,0 +1,1 @@
+Simeon S, Li H, Malik AA, Kandhro AH, Piacham T, Prachayasittikul V, Wikberg JES, Nantasenamat C*. PepBio: a web server for predicting the bioactivity of host defense peptides. RSC Advance (2016) Submitted Manuscript.
