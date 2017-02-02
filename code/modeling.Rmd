@@ -1,6 +1,6 @@
 ---
 title: "PepBio: Predicting the bioactivity of host defense peptides"
-author: Saw Simeon, Hao Li, Aijaz Ahmad Malik, Abdul Hafeez Kandhro, Theeraphon Piacham, Watshara Shoombuatong, Pornlada Nuchnoi, Jarl E. S. Wikberg and Chanin Nantasanamat
+author: Saw Simeon, Hao Li, Thet Su Win, Aijaz Ahmad Malik, Abdul Hafeez Kandhro, Theeraphon Piacham, Watshara Shoombuatong, Pornlada Nuchnoi, Jarl E. S. Wikberg and Chanin Nantasanamat
 date: "October 13, 2015"
 output: html_document
 ---
